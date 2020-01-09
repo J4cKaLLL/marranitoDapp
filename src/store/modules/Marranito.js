@@ -11,7 +11,7 @@ if (window.ethereum)
     store.dispatch(constants.MARRANITO_GET_ACCOUNT);
   });
 
-let MarranitoAddress = '0x36732Bc544B39E400D99F94Fef73860F462aD27e';
+let MarranitoAddress = '0xb84C17a6eF0956e5aFbd2c4664cCaF60fAF2970c';
 
 const state = {
   provider: web3 !== undefined,
